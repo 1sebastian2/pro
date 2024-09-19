@@ -41,6 +41,12 @@ while opcion != 6:
             potencia = int(input("digite el segundo numero: "))
             resultado = base ** potencia
             print(f" potencia = {resultado}")
+        elif opcion == 6:
+            print(f"saliendo de la calculadora...")
+        else:
+            print("error")
+    except ValueError:
+        print("ingrese una opcion valida")
 print("gracias por utilizar la calculadora")
 
 
