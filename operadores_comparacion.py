@@ -1,10 +1,9 @@
 #crear variables
-num1 = 5
-num2 = 11
+num1 = "5dccddc"
+num2 = "11dededccvc"
 #oc
-print(num1 == num2)
-print(num1 != num2)
-print(num1 < num2)
-print(num1 > num2)
-print(num1 <= num2)
-print(num1 >= num2)
+#rint(num1 != num2)
+#print(num1 < num2)
+#print(num1 > num2)
+#print(num1 <= num2)
+#print(num1 >= num2)
