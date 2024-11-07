@@ -37,3 +37,17 @@ a,b = solicitar_datos()
 print(f"nuemros digitados {a} y {b}")
 #llamar a suma 
 suma(a,b)
+
+#funcion multiplicacion 
+def multiplicacion (num1,num2):
+    """
+    2 numeros de tipo entero y los retorna 
+    
+    """
+    rta = num1 * num2
+    return rta
+
+rta = multiplicacion(a,b)
+print(f"el resultado de la * = {rta}")
+
+suma (rta,a)
