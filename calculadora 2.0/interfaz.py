@@ -7,7 +7,8 @@ def menu():
         "5. Pentágono", "6. Trapecio", "7. Rombo", "8. Romboide", "9. Salir"
     ]
     print("\nBienvenido a la calculadora de figuras")
-    print("\n".join(opciones))
+    for opcion in opciones:
+        print(opcion)
     return int(input("Seleccione una opción del menú: "))
 
 def mostrar_area(figura, area):
@@ -18,6 +19,6 @@ def mostrar_area(figura, area):
 
 def solicitar_valores(*nombres):
     """
-    Solicita los valores necesarios para calcular el área.
+    Pide valores al usuario y los devuelve como lista.
     """
     return [float(input(f"Ingrese {nombre}: ")) for nombre in nombres]
